@@ -1,0 +1,37 @@
+.button {
+  min-height: $butheight;
+  @include buttons_desktop_tablet;
+  padding: 0;
+  box-sizing: border-box;
+  @media screen and (max-width: $mediamobile) {
+    min-height: $butheightmobile;
+    @include buttons_mobile;
+  }
+  &_type_header {
+    width: 350px;
+    background-color: black;
+    color: $coltextblack;
+    @media screen and (max-width: $mediamobile) {
+      width: 100%;
+    }
+  }
+  &_type_header:hover {
+    cursor: pointer;
+    background-color: white;
+    color: $coltext;
+  }
+  &_type_form {
+    width: 108px;
+    background-color: white;
+    color: $coltext;
+    border: 0.5px solid $coltextblack;
+    @media screen and (max-width: $mediamobile) {
+      width: 100%;
+    }
+  }
+  &_type_form:hover {
+    cursor: pointer;
+    background-color: black;
+    color: $coltextblack;
+  }
+}

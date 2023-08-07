@@ -1,0 +1,84 @@
+@mixin headline_desktop {
+  font: {
+    weight: $font-weight-standart;
+    size: 48px;
+  }
+  line-height: 64px;
+  letter-spacing: 0.04em;
+}
+
+@mixin headline_tablet {
+  font: {
+    weight: $font-weight-standart;
+    size: 32px;
+  }
+  line-height: 40px;
+  letter-spacing: 0.04em;
+}
+
+@mixin headline_mobile {
+  font: {
+    weight: $font-weight-standart;
+    size: 24px;
+  }
+  line-height: 32px;
+  letter-spacing: 0.04em;
+}
+
+@mixin lead_desktop_tablet {
+  font: {
+    weight: $font-weight-standart;
+    size: 32px;
+  }
+  line-height: 44px;
+  letter-spacing: 0.02em;
+}
+
+@mixin lead_mobile {
+  font: {
+    weight: $font-weight-standart;
+    size: 20px;
+  }
+  line-height: 28px;
+}
+
+@mixin buttons_desktop_tablet {
+  font: {
+    weight: $font-weight-standart;
+    size: 16px;
+  }
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+@mixin buttons_mobile {
+  font: {
+    weight: $font-weight-standart;
+    size: 14px;
+  }
+  line-height: 20px;
+  letter-spacing: 0.02em;
+}
+
+@mixin text_desktop_tablet {
+  font: {
+    weight: $font-weight-plus;
+    size: 20px;
+  }
+  line-height: 32px;
+}
+
+@mixin text_mobile {
+  font: {
+    weight: $font-weight-plus;
+    size: 16px;
+  }
+  line-height: 24px;
+}
+@mixin text_mobile_agree {
+  font: {
+    weight: $font-weight-plus;
+    size: 14px;
+  }
+  line-height: 20px;
+}
